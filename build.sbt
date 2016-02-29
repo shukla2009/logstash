@@ -14,7 +14,7 @@ enablePlugins(JavaAppPackaging, UniversalDeployPlugin)
 libraryDependencies += "org.scalatest" %% "scalatest" % "2.2.4" % "test"
 libraryDependencies += "ch.qos.logback" % "logback-classic" % "1.1.3"
 libraryDependencies += "com.typesafe.scala-logging" % "scala-logging_2.11" % "3.1.0"
-//libraryDependencies += "net.logstash.logback" % "logstash-logback-encoder" % "4.5.1"
+libraryDependencies += "net.logstash.logback" % "logstash-logback-encoder" % "4.5.1"
 libraryDependencies += "com.typesafe.akka" %% "akka-slf4j" % "2.4.2"
 
 // Uncomment to use Akka
